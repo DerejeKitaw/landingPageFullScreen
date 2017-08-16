@@ -6,17 +6,42 @@ body{
     margin:0;
     font-family: Arial, "Helvetica Neue", sans-serif; 
     font-size: 17px;
-    color: cornflowerblue;
-    line-height: 1.6em; 
+    color:  black;
+    line-height: 1.6; 
 }
 
 #showcase{
     background-image: url('../img/mainimage.jpeg');
     background-size: cover;
-    background-position:centerl;
+    background-position:center;
        
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size:50px ;
+    line-height: 1.1;
+
+}
+#showcase p {
+    font-size:20px ;
+}
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color:#926239;
+    border:#926239 1px solid ;
+    padding: 10px 20px;
+    border-radius:10px;
+    margin-top:20px
+}
+#showcase  .button:hover{
+    background: #926239;
+    color: #fff;
 }
